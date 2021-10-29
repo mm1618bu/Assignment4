@@ -1,0 +1,40 @@
+number = int(input("Enter your card number: "))
+def isValid(number):
+    y = len(str(number))
+    y1 = str(number)
+    z = list(y1.strip(" "))
+    typ3 = int(z[0])
+    print(typ3)
+    if y < 13 or y > 16:
+        print("fail")
+    else:
+        if typ3 == 4:
+            print("visa")
+        elif typ3 == 5:
+            print("MasterCard")
+        elif typ3 == 3:
+            print("AmericanExpress")
+        elif typ3 == 6:
+            print("Discover")
+        else:
+            print("no")
+
+def sumOfDoubleEvenPlace(number):
+    y1 = str(number)
+    z = str(intExample)
+    q = str(z[::2])
+    r = int(q)
+    print(r)
+def getDigit(number):
+    pass
+def sumofOddPlace(number):
+    pass
+def prefixMatched(number, d):
+    pass
+def getSize(d):
+    pass
+def getPrefix(number, k):
+    pass
+
+isValid(number)
+sumOfDoubleEvenPlace(number)
