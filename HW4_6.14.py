@@ -21,7 +21,6 @@ def calcPi(n):
     return(pi)
 
   
-
+print("i"," ","m(i)")
 for i in n:
-
-    print(calcPi(i))
+    print(i," ",calcPi(i))
