@@ -1,6 +1,8 @@
 #! /usr/bin/python3
 # Return true if the card number is valid
 number = int(input("number please"))
+k = 0
+d = 0
 def isValid(number):
 
     valid = False
@@ -68,10 +70,10 @@ def getPrefix(number, k):
     print("Enter the credit card number")
 
 print ("valid" if isValid(number) else "invalid")
-isvalid()
-sumOfDoubleEvenPlace()
-getDigit()
-sumOfOddPlace()
-prefixMatched()
-getSize()
+isvalid(number)
+sumOfDoubleEvenPlace(number)
+getDigit(number)
+sumOfOddPlace(number)
+prefixMatched(number)
+getSize(number)
 getPrefix(number, k)
