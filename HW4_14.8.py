@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 fileName = input("Enter Filename:")
 try:
     f = open(fileName) #Open the file as requested
