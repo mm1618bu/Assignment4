@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 # numbers that will be passed through
 n = {1,101,201,301,401,501,601,701,801,901}
 
