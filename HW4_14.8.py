@@ -1,12 +1,11 @@
-print("Enter the name of the file to open: ")
-fileName = input("")
+fileName = input("Enter Filename:")
 try:
-    f = open(fileName)
-    words = []
+    f = open(fileName) #Open the file as requested
+    words = [] # make an empty list for the words
     for x in f:
         words = x.strip().split(" ")
-    words = list(set(words))
-    words.sort()
+    words = list(set(words))# make the set into a list
+    words.sort() #sort the list
     print(words)
     f.close()
 
